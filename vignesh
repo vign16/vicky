@@ -25,7 +25,14 @@ if number % 2 == 0:
 else:
     print(f"{number} is an odd number.")
 
+case 4:
+import random
 
+# Simulate rolling a die
+roll = random.randint(1, 6)
+
+# Display the result
+print(f"You rolled a {roll}!")
 
 ~
 ~
