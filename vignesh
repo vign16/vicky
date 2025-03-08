@@ -15,6 +15,15 @@ square = number ** 2
 # Display the result
 print(f"The square of {number} is {square}.")
 
+case 3:
+# Ask the user for a number
+number = int(input("Enter a number: "))
+
+# Check if the number is even or odd
+if number % 2 == 0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
 
 
 
